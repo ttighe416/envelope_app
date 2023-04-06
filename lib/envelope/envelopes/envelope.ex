@@ -4,7 +4,7 @@ defmodule Envelope.Envelopes.Envelope do
 
   schema "envelopes" do
     field :name, :string
-    field :amount, :float, default: 0.0
+    field :amount, :integer, default: 0
     field :notes, :string
 
     timestamps()
